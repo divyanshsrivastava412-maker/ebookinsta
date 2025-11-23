@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>0 to 100K Instagram Growth using AI – 200 Prompt Blueprint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Grow your Instagram faster using 200 AI-powered prompts for hooks, captions, reels and content ideas. Specially designed for creators and small brands." />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1411538397169947'); // TODO: replace with your real Pixel ID
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1411538397169947&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    :root {
+      --bg: #05060a;
+      --card: #0f1117;
+      --accent: #ff007a;
+      --accent-soft: rgba(255, 0, 122, 0.1);
+      --text: #f7f7f7;
+      --muted: #a0a3b1;
+      --border: #22242f;
+      --success: #18c964;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #171926 0, #05060a 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border: 1px solid var(--accent-soft);
+      background: rgba(5, 6, 10, 0.6);
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 10px rgba(255, 0, 122, 0.8);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: 32px;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .hero-title {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 10px;
+    }
+
+    .hero-title span {
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .hero-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .hero-tag {
+      font-size: 11px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(10, 12, 20, 0.7);
+      color: var(--muted);
+    }
+
+    .price-line {
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: var(--muted);
+    }
+
+    .price-line del {
+      opacity: 0.6;
+    }
+
+    .price-main {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    .price-main span {
+      color: var(--accent);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .btn-primary {
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, var(--accent), #ff4e00);
+      color: #fff;
+      box-shadow: 0 8px 25px rgba(255, 0, 122, 0.3);
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 30px rgba(255, 0, 122, 0.45);
+    }
+
+    .btn-ghost {
+      padding: 9px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: transparent;
+      cursor: pointer;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .hero-meta {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .hero-meta span {
+      color: var(--success);
+      font-weight: 500;
+    }
+
+    .hero-image-wrap {
+      background: radial-gradient(circle at top, #26283a 0, #0b0c12 55%);
+      border-radius: 22px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-image-inner {
+      border-radius: 18px;
+      overflow: hidden;
+      background: #05060a;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    .hero-image-inner img {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .section {
+      margin-top: 32px;
+      background: rgba(10, 12, 20, 0.9);
+      border-radius: 18px;
+      padding: 18px 16px;
+      border: 1px solid var(--border);
+    }
+
+    .section h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .section p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .pill {
+      font-size: 11px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .columns-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .bullet {
+      font-size: 13px;
+      color: var(--muted);
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 4px;
+    }
+
+    .bullet::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+    }
+
+    .faq-q {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+
+    .faq-a {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .mt-16 { margin-top: 16px; }
+
+    @media (max-width: 720px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      .hero-image-wrap {
+        order: -1;
+      }
+      .page {
+        padding: 18px 12px 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          0 → 100K Instagram Growth • AI Powered
+        </div>
+        <h1 class="hero-title">
+          Grow <span>Faster</span> on Instagram with 200 AI Prompts
+        </h1>
+        <p class="hero-sub">
+          Turn ChatGPT into your personal Instagram growth team. Get viral hooks, captions, reel ideas and content plans in seconds – even if you have 0 ideas right now.
+        </p>
+
+        <div class="hero-highlights">
+          <div class="hero-tag">For creators & small brands</div>
+          <div class="hero-tag">0–100K roadmap</div>
+          <div class="hero-tag">Works in any niche</div>
+        </div>
+
+        <p class="price-line">
+          <del>₹499</del> regular price • launch offer for early buyers
+        </p>
+        <p class="price-main">
+          Today: <span>₹99 Only</span> (80% Off)
+        </p>
+
+        <div class="cta-row">
+          <button class="btn-primary" onclick="handleBuyClick()">
+            Get Instant Access – ₹99
+          </button>
+          <button class="btn-ghost" onclick="scrollToPreview()">
+            Preview what's inside
+          </button>
+        </div>
+        <p class="hero-meta">
+          <span>Instant download</span> • One-time payment • Use with ChatGPT & other AI tools
+        </p>
+      </div>
+
+      <div class="hero-image-wrap">
+        <div class="hero-image-inner">
+          <!-- TODO: Replace src with your real ebook cover image URL -->
+          <img src="ebook-cover.jpg" alt="Instagram Growth Prompt Blueprint – 200 AI Prompts eBook cover" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S INSIDE -->
+    <section class="section" id="preview">
+      <h2>What you get inside</h2>
+      <p>200+ proven prompts structured for real growth, not theory.</p>
+
+      <div class="columns-2">
+        <div>
+          <p class="bullet">Viral reel prompts for hooks, scripts and transitions</p>
+          <p class="bullet">Caption prompts that boost saves, shares and comments</p>
+          <p class="bullet">Carousel content ideas for education & storytelling</p>
+          <p class="bullet">Daily content planner prompts (30–90 days)</p>
+        </div>
+        <div>
+          <p class="bullet">Niche-specific prompts (coaches, editors, memes, small biz)</p>
+          <p class="bullet">Monetization prompts for offers, DMs & CTA ideas</p>
+          <p class="bullet">Personal brand prompts for authority & trust</p>
+          <p class="bullet">“Stuck?” prompts to revive dead pages</p>
+        </div>
+      </div>
+
+      <div class="center mt-16">
+        <button class="btn-primary" onclick="handleBuyClick()">
+          Start Using the 200 Prompts – ₹99
+        </button>
+      </div>
+    </section>
+
+    <!-- WHO IT'S FOR -->
+    <section class="section">
+      <h2>Who this is for</h2>
+      <p>This eBook is built for people who want growth but don’t want to overthink content every day.</p>
+
+      <div class="pill-list">
+        <div class="pill">Reel creators</div>
+        <div class="pill">Editors & designers</div>
+        <div class="pill">Coaches & freelancers</div>
+        <div class="pill">Small businesses</div>
+        <div class="pill">Meme & theme pages</div>
+        <div class="pill">Students building a personal brand</div>
+      </div>
+    </section>
+
+    <!-- WHY IT WORKS -->
+    <section class="section">
+      <h2>Why these prompts work</h2>
+      <p>Most people use AI like a toy. These prompts turn it into a growth system.</p>
+      <p class="bullet">Designed to get saves & shares, not just likes</p>
+      <p class="bullet">Based on real growth psychology (curiosity, tension, emotion)</p>
+      <p class="bullet">Removes the “what should I post?” problem completely</p>
+      <p class="bullet">Lets you focus on execution while AI handles ideas & wording</p>
+    </section>
+
+    <!-- ABOUT YOU -->
+    <section class="section">
+      <h2>Who's behind this?</h2>
+      <p>
+        Created by <strong>Divyansh (@SocialChutney.media)</strong> – working with content, social media and AI tools to make growth less random and more systematic.
+      </p>
+      <p>
+        Instead of giving you generic advice like “be consistent”, this eBook gives you direct plug-and-play prompts that you can paste into ChatGPT and get content ready in minutes.
+      </p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <h2>FAQ</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">How will I receive the eBook?</p>
+        <p class="faq-a">After payment on Instamojo, you'll be redirected to a download page with instant access to the PDF.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Do I need a paid ChatGPT plan?</p>
+        <p class="faq-a">No. You can use these prompts with the free version of ChatGPT or any other AI model that can follow text prompts.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Is this only for big pages?</p>
+        <p class="faq-a">No. It’s especially powerful if you're under 10K and want to grow faster without spending hours thinking about ideas.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Is ₹99 a one-time payment?</p>
+        <p class="faq-a">Yes. One-time payment, lifetime access to this version of the eBook.</p>
+      </div>
+
+      <div class="center mt-16">
+        <button class="btn-primary" onclick="handleBuyClick()">
+          Get the 200 Prompt Blueprint – ₹99
+        </button>
+        <p class="hero-meta" style="margin-top:6px;">
+          Secure Instamojo payment • Works on mobile & desktop
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function handleBuyClick() {
+      // Meta tracking: strong intent signal
+      if (typeof fbq === 'function') {
+        fbq('track', 'InitiateCheckout');
+      }
+      // Redirect to Instamojo product page
+      window.location.href = 'https://socialchutney-media.myinstamojo.com/product/instagram-growth-prompt-blueprint-200-expert/';
+    }
+
+    function scrollToPreview() {
+      const el = document.getElementById('preview');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
